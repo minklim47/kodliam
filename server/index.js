@@ -6,8 +6,13 @@ const cookieParser = require('cookie-parser');
 
 const connection = mysql.createConnection({
     host: "db.cshack.site",
+<<<<<<< Updated upstream
     port: "3106",
     user: "group05",
+=======
+    port: "3306",
+    user: "ggroup05",
+>>>>>>> Stashed changes
     password: "205223224",
     database: "Hackathon_G5",
 });
