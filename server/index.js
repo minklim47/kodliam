@@ -5,11 +5,11 @@ const cors = require('cors');
 const cookieParser = require('cookie-parser');
 
 const connection = mysql.createConnection({
-    host: "server2.bsthun.com",
-    port: "6105",
-    user: "lab_1gghlc",
-    password: "NkPRxVpdx9JYqdMS",
-    database: "lab_blank01_1g3sdcc",
+    host: "db.cshack.site",
+    port: "3106",
+    user: "group05",
+    password: "205223224",
+    database: "Hackathon_G5",
 });
 
 connection.connect((err) => {
